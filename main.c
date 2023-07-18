@@ -1,5 +1,7 @@
 //Compile:  cc `pkg-config --cflags gtk4,webkitgtk-6.0` main.c -o webkitgtkcallback `pkg-config --libs gtk4,webkitgtk-6.0`.
 
+//Error after button click and confirm of alert message: Gtk-CRITICAL **: 23:13:28.255: gtk_widget_snapshot_child: assertion '_gtk_widget_get_parent (child) == widget' failed
+
 #include <gtk/gtk.h>
 #include "webkit/webkit.h"
 
